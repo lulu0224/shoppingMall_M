@@ -1,0 +1,495 @@
+@charset "utf-8";
+/* 尾部 */
+.tabNav {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  max-width: 7.5rem;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  /* width: calc(~"100% - (.5rem*2)"); */
+  height: 1.2rem;
+  background: #fff;
+  padding: 0 0.5rem;
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabNav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tabNav a span {
+  font: 0.2rem/0.41rem "微软雅黑";
+  color: #8a8a8a;
+}
+.tabNav a i {
+  font-size: 0.5rem;
+  color: #888;
+}
+.tabNav .active i {
+  color: #f26b11;
+}
+.tabNav .active span {
+  color: #f26b11;
+}
+body {
+  background-color: #f1f1f1;
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+/*顶部开始*/
+header {
+  width: 100%;
+  max-width: 7.5rem;
+  height: 0.89rem;
+  padding: 0 0.32rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E4E4E4;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+header a img {
+  width: 1.46rem;
+  height: 0.31rem;
+}
+header form input {
+  width: 3.04rem;
+  height: 0.38rem;
+  line-height: 0.38rem;
+  color: #ACACAC;
+  font-size: 0.16rem;
+  text-align: center;
+  background-color: #EEEEEE;
+  border-radius: 4px;
+}
+header .menubox {
+  font-size: 0.55rem;
+}
+/*顶部结束*/
+/*导航条开始*/
+nav {
+  margin-top: 0.89rem;
+  height: 0.76rem;
+  padding: 0.2rem 0.76rem 0 0.32rem;
+  background-color: white;
+  position: relative;
+}
+nav .nav_info {
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  font-size: 0px;
+}
+nav .nav_info a {
+  flex-shrink: 0;
+  font-size: 0.26rem;
+  color: #151515;
+  margin-right: 0.4rem;
+}
+nav .nav_info a:hover {
+  color: #E60033;
+  border-bottom: 4px solid #E60033;
+}
+nav .nav_info .show {
+  margin-right: 0;
+  color: #E60033;
+  border-bottom: 4px solid #E60033;
+}
+nav .nav_info span {
+  font-size: 0.28rem;
+  color: #F1F1F1;
+  margin: 0 0.2rem;
+}
+nav .select {
+  width: 0.55rem;
+  height: 0.76rem;
+  background-color: white;
+  position: absolute;
+  right: 0.2rem;
+  top: 0;
+  font-size: 0.36rem;
+  color: #C4C4C4;
+  line-height: 0.76rem;
+  text-align: right;
+}
+/*导航条结束*/
+/*主体开始*/
+main {
+  /*banner开始*/
+  /*banner结束*/
+  /*内容第一层开始*/
+  /*内容第一层结束*/
+  /*内容第二层开始*/
+  /*内容第二层结束*/
+  /*内容第三层开始*/
+  /*内容第三层结束*/
+  /*内容第四层开始*/
+  /*内容第五层开始*/
+}
+main .banner {
+  height: 2.91rem;
+}
+main .banner a {
+  display: none;
+}
+main .banner a img {
+  width: 100%;
+}
+main .banner a:nth-of-type(1) {
+  display: block;
+}
+main .floor1 {
+  padding: 0.31rem 0.49rem 0.39rem 0.38rem;
+  height: 1.79rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+main .floor1 div a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .floor1 div a img {
+  width: 0.64rem;
+  height: 0.62rem;
+}
+main .floor1 div a span {
+  display: block;
+  font-size: 0.24rem;
+  margin-top: 0.24rem;
+  color: #676767;
+}
+main .floor2 {
+  height: 3.77rem;
+  margin: 0.3rem 0;
+  padding-left: 0.17rem;
+  position: relative;
+  background-color: white;
+}
+main .floor2 .floor2_left {
+  width: 50%;
+  padding-top: 0.19rem;
+  padding-bottom: 0.2rem;
+  border-right: 1px solid #F0F0F0;
+}
+main .floor2 .floor2_left h2 {
+  font-size: 0.28rem;
+  color: #F82366;
+}
+main .floor2 .floor2_left h2 i {
+  font-size: 0.28rem;
+  color: #F82366;
+  margin-right: 0.15rem;
+}
+main .floor2 .floor2_left p {
+  font-size: 0.2rem;
+  color: #888888;
+  margin: 0.08rem 0 0.08rem;
+}
+main .floor2 .floor2_left .time {
+  font-size: 0.2rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+main .floor2 .floor2_left .time span {
+  display: inline-block;
+}
+main .floor2 .floor2_left .time .num {
+  width: 0.41rem;
+  height: 0.41rem;
+  line-height: 0.41rem;
+  font-size: 0.18rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  border-radius: 0.05rem;
+  background-color: black;
+}
+main .floor2 .floor2_left .time span:last-of-type {
+  width: 0.96rem;
+  height: 0.4rem;
+  margin-left: 0.23rem;
+  line-height: 0.4rem;
+  text-align: center;
+  font-size: 0.24rem;
+  background: url(../images/bg.jpg) no-repeat right;
+}
+main .floor2 .floor2_left a {
+  margin-left: 0.4rem;
+}
+main .floor2 .floor2_left a img {
+  width: 2.36rem;
+  height: 2rem;
+}
+main .floor2 .floor2_left .yuan {
+  width: 0.84rem;
+  height: 0.84rem;
+  line-height: 0.84rem;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 0.15rem;
+  color: white;
+  background-color: #FF327A;
+  position: absolute;
+  left: 2.6rem;
+  top: 2.64rem;
+}
+main .floor2 .floor2_left .yuan span {
+  font-size: 0.22rem;
+  font-weight: bold;
+  margin-left: 0.04rem;
+}
+main .floor2 .floor2_right {
+  width: 50%;
+}
+main .floor2 .floor2_right .right_floor1 {
+  height: 1.9rem;
+  padding: 0 0.3rem 0 0.18rem;
+  border-bottom: 1px solid #F0F0F0;
+}
+main .floor2 .floor2_right .right_floor1 .info {
+  padding-top: 0.19rem;
+}
+main .floor2 .floor2_right .right_floor1 .info h2 {
+  font-size: 0.28rem;
+  color: #F82366;
+  width: 1.65rem;
+  height: 0.28rem;
+  position: relative;
+}
+main .floor2 .floor2_right .right_floor1 .info span {
+  width: 0.32rem;
+  height: 0.26rem;
+  display: inline-block;
+  line-height: 0.26rem;
+  text-align: center;
+  font-size: 0.14rem;
+  color: white;
+  border-radius: 0.02rem;
+  background-color: #F82366;
+  position: absolute;
+  left: 1.3rem;
+  top: 0rem;
+}
+main .floor2 .floor2_right .right_floor1 .info p {
+  font-size: 0.2rem;
+  color: #888888;
+  margin: 0.09rem 0 0.1rem;
+}
+main .floor2 .floor2_right .right_floor1 .info img {
+  width: 0.93rem;
+  height: 0.32rem;
+  margin-top: 0.14rem;
+}
+main .floor2 .floor2_right .right_floor1 .pic {
+  margin: 0.05rem 0;
+}
+main .floor2 .floor2_right .right_floor1 .pic img {
+  width: 1.26rem;
+  height: 1.78rem;
+}
+main .floor2 .floor2_right .right_floor2 .haohuo {
+  padding: 0.18rem 0 0.05rem 0.1rem;
+  width: 50%;
+  border-right: 1px solid #F0F0F0;
+}
+main .floor2 .floor2_right .right_floor2 .haohuo h2 {
+  font-size: 0.26rem;
+  color: #F82366;
+}
+main .floor2 .floor2_right .right_floor2 .haohuo p {
+  font-size: 0.18rem;
+  color: #888888;
+  margin: 0.06rem 0 0.06rem;
+}
+main .floor2 .floor2_right .right_floor2 .haohuo a > img {
+  margin-left: 0.4rem;
+  width: 0.64rem;
+  height: 1.02rem;
+}
+main .floor2 .floor2_right .right_floor2 .pin {
+  padding: 0.18rem 0 0.05rem 0.1rem;
+  width: 50%;
+}
+main .floor2 .floor2_right .right_floor2 .pin h2 {
+  font-size: 0.26rem;
+  color: #F82366;
+}
+main .floor2 .floor2_right .right_floor2 .pin p {
+  font-size: 0.18rem;
+  color: #888888;
+  margin: 0.06rem 0 0.06rem;
+}
+main .floor2 .floor2_right .right_floor2 .pin a > img {
+  margin-left: 0.4rem;
+  width: 0.64rem;
+  height: 1.02rem;
+}
+main .floor3 {
+  margin-bottom: 0.3rem;
+}
+main .floor3 img {
+  width: 100%;
+}
+main .floor4 {
+  height: 1.1rem;
+  padding: 0.2rem;
+  background-color: white;
+}
+main .floor4 ul {
+  display: flex;
+  border: 1px solid #F0F0F0;
+}
+main .floor4 ul li {
+  width: 25%;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  text-align: center;
+  background-color: white;
+}
+main .floor4 ul li a {
+  color: #0C0C0C;
+  font-size: 0.26rem;
+}
+main .floor4 ul li:nth-of-type(2) {
+  border-left: 1px solid #F0F0F0;
+  border-right: 1px solid #F0F0F0;
+}
+main .floor4 ul li:nth-of-type(3) {
+  border-right: 1px solid #F0F0F0;
+}
+main .floor4 ul .active {
+  background-color: #F26B11;
+}
+main .floor4 ul .active a {
+  color: white;
+}
+main .floor4 ul li:hover {
+  background-color: #F26B11;
+}
+main .floor4 ul li:hover a {
+  color: white;
+}
+main .floor5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0 0.2rem;
+}
+main .floor5 .floor5_wrap {
+  overflow: auto;
+  height: 12rem;
+  padding-bottom: 1.5rem;
+}
+main .floor5 .floor5_wrap .goods {
+  width: 100%;
+  height: 3.16rem;
+  margin-bottom: 0.33rem;
+  padding-bottom: 0.27rem;
+  box-shadow: 0 0 0.03rem 0.03rem #F0F0F0;
+  background-color: white;
+}
+main .floor5 .floor5_wrap .goods a {
+  padding-top: 0.52rem;
+  padding-bottom: 0.28rem;
+}
+main .floor5 .floor5_wrap .goods a img {
+  width: 2.16rem;
+  margin-left: 0.4rem;
+  margin-right: 0.5rem;
+}
+main .floor5 .floor5_wrap .goods .goods_info {
+  padding-top: 0.45rem;
+  padding-bottom: 0.38rem;
+}
+main .floor5 .floor5_wrap .goods .goods_info h3 {
+  font-size: 0.28rem;
+  color: #323232;
+}
+main .floor5 .floor5_wrap .goods .goods_info p:first-of-type {
+  font-size: 0.24rem;
+  color: #F93D3E;
+  font-weight: bold;
+  margin: 0.23rem 0 0.3rem 0;
+}
+main .floor5 .floor5_wrap .goods .goods_info p:first-of-type span {
+  font-size: 0.3rem;
+}
+main .floor5 .floor5_wrap .goods .goods_info p:last-of-type {
+  color: #8F8F8F;
+  font-size: 0.23rem;
+}
+main .floor5 .floor5_wrap .goods .goods_info .buy_btn {
+  width: 1.65rem;
+  height: 0.52rem;
+  margin-top: 0.31rem;
+  font-size: 0.24rem;
+  color: white;
+  line-height: 0.52rem;
+  text-align: center;
+  border-radius: 0.05rem;
+  background-color: #F26B11;
+}
+main .floor5 .floor5_wrap .goods:nth-of-type(2) a {
+  padding: 1px 0;
+}
+main .floor5 .floor5_wrap .goods:nth-of-type(2) a img {
+  width: 2.18rem;
+  margin-left: 0.38rem;
+  margin-right: 0.5rem;
+}
+/* 尾部 */
+.tabNav {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  max-width: 7.5rem;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  /* width: calc(~"100% - (.5rem*2)"); */
+  height: 1.22rem;
+  background: #fff;
+  padding: 0 0.5rem;
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabNav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tabNav a .icon1 {
+  width: 0.51rem;
+  height: 0.52rem;
+}
+.tabNav a .icon2 {
+  width: 0.57rem;
+  height: 0.5rem;
+}
+.tabNav a .icon3 {
+  width: 0.51rem;
+  height: 0.58rem;
+}
+.tabNav a span {
+  font: 0.2rem/0.41rem "微软雅黑";
+  color: #8a8a8a;
+}
+.tabNav .active span {
+  color: #f26b11;
+}

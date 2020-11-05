@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@mainc:#f26b11;
+
+/* 尾部 */
+.tabNav{
+	position: fixed;
+	left: 50%;
+	bottom: 0;
+    width: 100%;
+    max-width: 7.5rem;
+	transform: translateX(-50%);
+	box-sizing: border-box;
+	//注意：less中 “~”  符号后面双引号里面的内容会被less编译忽略
+	/* width: calc(~"100% - (.5rem*2)"); */
+	height: 1.2rem;
+	background: #fff;
+	padding: 0 .5rem;
+	border-top: 1px solid #ebebeb;
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+	a{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		span{
+			font: .2rem/.41rem "微软雅黑";
+			color: #8a8a8a;
+			
+		}
+		i{
+			font-size: .5rem;
+			color: #888;
+		}
+	}
+	.active{
+		i{color: @mainc;}
+		span{
+			color: @mainc;
+		}
+	}
+	
+}

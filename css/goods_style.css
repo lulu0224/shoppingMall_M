@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* 尾部 */
+.tabNav {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  max-width: 7.5rem;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  /* width: calc(~"100% - (.5rem*2)"); */
+  height: 1.2rem;
+  background: #fff;
+  padding: 0 0.5rem;
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabNav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tabNav a span {
+  font: 0.2rem/0.41rem "微软雅黑";
+  color: #8a8a8a;
+}
+.tabNav a i {
+  font-size: 0.5rem;
+  color: #888;
+}
+.tabNav .active i {
+  color: #f26b11;
+}
+.tabNav .active span {
+  color: #f26b11;
+}
+body {
+  background-color: white;
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+/*头部开始*/
+header {
+  position: fixed;
+  left: 50%;
+  top: 0;
+  width: 100%;
+  transform: translateX(-50%);
+  max-width: 7.5rem;
+  height: 0.88rem;
+  padding: 0 0.35rem 0 0.29rem;
+  background-color: #F26B11;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+header a:first-of-type {
+  display: block;
+  width: 0.17rem;
+  height: 0.28rem;
+}
+header a:first-of-type img {
+  width: 0.17rem;
+  height: 0.28rem;
+}
+header h2 {
+  line-height: 0.88rem;
+  font-size: 0.33rem;
+  flex-grow: 1;
+  padding-left: 2.63rem;
+}
+header a:last-of-type {
+  display: block;
+  width: 0.55rem;
+  height: 0.11rem;
+}
+header a:last-of-type img {
+  width: 0.55rem;
+  height: 0.11rem;
+}
+/*主体开始*/
+main {
+  display: flex;
+}
+main ul {
+  position: fixed;
+  left: 0;
+  top: 0.88rem;
+  padding-bottom: 2.8rem;
+  padding-top: 0.42rem;
+  border-right: 1px solid #D9D9D9;
+  width: 1.65rem;
+}
+main ul li {
+  width: 1.64rem;
+  height: 0.52rem;
+  text-align: center;
+  margin-bottom: 0.61rem;
+}
+main ul li a {
+  color: #666666;
+  font: 0.25rem/0.52rem "微软雅黑";
+}
+main ul .active {
+  border-left: 0.08rem solid #F26B11;
+}
+main ul .active a {
+  color: #F26B11;
+}
+main ul li:hover {
+  border-left: 0.08rem solid #F26B11;
+}
+main ul li:hover a {
+  color: #F26B11;
+}
+main .con {
+  height: 100%;
+  flex-grow: 1;
+  padding: 1.44rem 0rem 1rem 1.9rem;
+}
+main .con .con1 .floor1 {
+  margin-bottom: 0.5rem;
+  display: flex;
+  padding: 0 0.44rem 0 0.29rem;
+  justify-content: space-between;
+}
+main .con .con1 .floor1 h3 {
+  font-size: 0.26rem;
+  color: #454545;
+}
+main .con .con1 .floor1 a {
+  font-size: 0.24rem;
+  color: #454545;
+}
+main .con .con1 .floor2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .con .con1 .floor2 a {
+  display: block;
+  float: left;
+  padding-bottom: 0.36rem;
+  color: #878787;
+  font-size: 0.24rem;
+  width: 33.3%;
+  text-align: center;
+}
+main .con .con1 .floor2 a img {
+  width: 1.46rem;
+  height: 1.45rem;
+  margin-bottom: 0.23rem;
+}
+main .con .con2 .floor1 {
+  margin-top: 0.79rem;
+  margin-bottom: 0.48rem;
+  display: flex;
+  padding: 0 0.44rem 0 0.29rem;
+  justify-content: space-between;
+}
+main .con .con2 .floor1 h3 {
+  font-size: 0.26rem;
+  color: #454545;
+}
+main .con .con2 .floor1 a {
+  font-size: 0.24rem;
+  color: #454545;
+}
+main .con .con2 .floor2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .con .con2 .floor2 a {
+  display: block;
+  float: left;
+  padding-bottom: 0.36rem;
+  color: #878787;
+  font-size: 0.24rem;
+  width: 33.3%;
+  text-align: center;
+}
+main .con .con2 .floor2 a img {
+  width: 1.46rem;
+  height: 1.45rem;
+  margin-bottom: 0.29rem;
+}

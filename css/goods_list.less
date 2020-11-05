@@ -1,0 +1,185 @@
+@charset "utf-8";
+@import "public";
+body{
+    background-color: white;
+     max-width: 7.5rem;
+    margin: 0 auto;
+}
+
+/*头部开始*/
+header{
+            height: .88rem;
+            padding: 0 .35rem 0 .29rem;
+            background-color: white;
+            display: flex;
+            color: black;
+            align-items: center;       
+            line-height: .88rem;
+            position:fixed;
+            left: 50%;
+            top: 0;
+            width: 100%;
+            transform: translateX(-50%);
+            max-width: 7.5rem;
+            a:first-of-type{
+                display: block;
+                width: .15rem;
+                height: .32rem;
+                img{
+                    width: .15rem;
+                    height: .32rem;
+                }
+            }
+            .logo{
+                margin: 0 2.14rem 0 2.56rem;
+                width: 1.47rem;
+                height: .29rem;
+            }
+            a:last-of-type{
+                display: block;
+                width: .55rem;
+                height: .11rem;
+                img{
+                    width: .55rem;
+                height: .11rem;
+                }
+                
+            }
+            
+        } 
+/*主体开始*/
+main{
+
+.search{
+            position:fixed;
+            left: 50%;
+            top: .88rem;
+            width: 100%;
+            transform: translateX(-50%);
+            max-width: 7.5rem;
+            background-color: white;
+    form{
+        display: flex;
+        justify-content: center;
+        width: 6.25rem;
+        height: .78rem;
+        border-radius: .4rem;
+        margin: .23rem auto .62rem;
+        background-color: #F26B11;
+         padding-left: 2.3rem;
+        position: relative;
+        color: white;
+       
+
+        img{
+            width: .26rem;
+            height: .27rem;
+            position: absolute;
+            left: 2.27rem;
+            top: .25rem;
+        }
+        input{
+            width: 3rem;
+            height: .78rem;
+            line-height: .78rem;   
+            color: #fff; 
+            font-size: .25rem;                
+            background-color: #F26B11;     
+        }
+        input::placeholder{
+            color: #fff;
+            line-height: .78rem; 
+            font-size: .25rem;
+        }
+    }
+}
+
+    
+    ul{
+         height: 100%;
+        overflow: auto;
+        padding: 2.51rem .37rem  2rem .23rem;
+        li{
+            margin-top: .26rem;
+            padding-bottom: .20rem;
+            border-bottom: 1px solid #D1D1D1;
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 1.65rem;
+                height:1.59rem ;
+            }
+            .info{
+                flex-grow: 1;
+                padding-left: .43rem;
+                p:nth-of-type(1){
+                    line-height: .36rem;
+                    color: #343434;
+                    width: 4.84rem;
+                    font-size: .25rem;
+                }
+                p:nth-of-type(2){
+                    font-size: .2rem;
+                    color: #E33840;
+                    font-weight: bold;
+                    margin-top: .19rem;
+                    margin-bottom: .24rem;
+                    span{
+                        font-size: .24rem;
+                    }
+                }
+                p:nth-of-type(3){
+                    font-size: .23rem;
+                    color: #A1A1A1;
+                }
+            }
+        }
+    }
+}
+
+
+/* 尾部 */
+.tabNav {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    max-width: 7.5rem;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    /* width: calc(~"100% - (.5rem*2)"); */
+    height: 1.22rem;
+    background: #fff;
+    padding: 0 0.5rem;
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .icon1{
+            width: .51rem;
+            height: .52rem;
+        }
+        .icon2{
+            width: .57rem;
+            height: .5rem;
+        }
+        .icon3{
+            width: .51rem;
+            height: .58rem;
+        }
+        span {
+            font: 0.2rem/0.41rem "微软雅黑";
+            color: #8a8a8a;
+          }
+      }
+      .active {
+          span {
+            color: #f26b11;
+          }
+      }
+          
+  }
